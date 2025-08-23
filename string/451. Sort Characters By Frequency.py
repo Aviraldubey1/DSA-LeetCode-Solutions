@@ -23,3 +23,4 @@ class Solution:
             for ch in buckets[freq]: #here is the count of the char in buckets
                 res.append(ch * freq)
         return "".join(res)
+    
